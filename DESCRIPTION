@@ -1,0 +1,27 @@
+Package: myappkg
+Title: Shiny App for R0 X VE Grid
+Version: 0.0.0.9000
+Description: A minimal R package shipping a shiny app and a cleaned
+    dataset.
+License: MIT + file LICENSE
+Authors@R: person("Caoyu","Shao",email = "csha0058@student.monash.edu",role
+    = c("aut","cre"))
+Encoding: UTF-8
+Language: en
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    bslib,
+    dplyr,
+    DT,
+    ggplot2,
+    plotly,
+    shiny,
+    tidyr
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

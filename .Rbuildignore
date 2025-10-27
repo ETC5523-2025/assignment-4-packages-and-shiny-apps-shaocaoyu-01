@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^renv$
+^renv\.lock$
+^\.github$
+^docs$
+^reports?$
+^tmp$|^\.tmp$
+^LICENSE\.md$
