@@ -5,3 +5,5 @@ Description: A minimal R package shipping a shiny app and a cleaned
 License: MIT + file LICENSE
 Authors@R: person("Caoyu","Shao",email = "csha0058@student.monash.edu",role
     = c("aut","cre"))
+URL: https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-shaocaoyu-01/
+RoxygenNote: 7.3.2
