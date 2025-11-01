@@ -7,13 +7,13 @@
 launch_app(...)
 }
 \arguments{
-\item{...}{Additional arguments passed to \code{\link[shiny:shinyApp]{shiny::shinyAppDir()}}.}
+\item{...}{Additional arguments passed to [shiny::shinyAppDir()].}
 }
 \value{
 No return value; called for side effects.
 }
 \description{
-Launches the Shiny application bundled in this package under \verb{inst/app/}.
+Launches the Shiny application bundled in this package under `inst/app/`.
 }
 \examples{
 if (interactive()) {
