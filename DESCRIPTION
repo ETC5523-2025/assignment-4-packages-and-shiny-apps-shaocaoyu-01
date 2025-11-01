@@ -1,9 +1,11 @@
 Package: myappkg
 Title: Shiny App for R0 X VE Grid
+Version: 0.1.0
 Description: A minimal R package shipping a shiny app and a cleaned
             dataset from  "COVID-19 in low-tolerance border quarantine systems Impact of the Delta variant of SARS-CoV-2"，(Zachreson et al., 2022)
 License: MIT + file LICENSE
 Authors@R: person("Caoyu","Shao",email = "csha0058@student.monash.edu",role
     = c("aut","cre"))
+Encoding: UTF-8
+VignetteBuilder: knitr
 URL: https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-shaocaoyu-01/
-RoxygenNote: 7.3.2
