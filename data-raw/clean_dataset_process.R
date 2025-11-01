@@ -1,5 +1,5 @@
-library(dplyr)
+#'library(dplyr)
 
-raw <- read.csv("data-raw/clean_data.csv")
+#'raw <- read.csv("data-raw/clean_data.csv")
 
-clean_dataset <- raw|> select("R0","VE","value")
+#'clean_dataset <- raw|> select("R0","VE","value")

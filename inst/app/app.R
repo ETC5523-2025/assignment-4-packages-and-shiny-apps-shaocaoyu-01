@@ -11,8 +11,7 @@ df0 <- myappkg::clean_dataset %>%
     R0    = as.numeric(R0),
     VE    = as.numeric(VE),
     value = as.numeric(value)
-  ) %>%
-  filter(!is.na(R0), !is.na(VE), !is.na(value))
+  ) 
 
 r0_rng <- range(df0$R0, na.rm = TRUE)
 ve_rng <- range(df0$VE, na.rm = TRUE)
