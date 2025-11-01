@@ -1,0 +1,55 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# Myappkg
+
+A package about reproducible shiny of figure 3 in “COVID-19 in
+low-tolerance border quarantine systems: Impact of the Delta variant of
+SARS-CoV-2”，(Zachreson et al., 2022). The outcome is a reproducible
+multi-layered heat map. Under the same quarantine system, the community
+infection pressure(in the article the authors aggregate the infectivity
+of all leaks in the community into a single indicator, $\beta$\_tot) due
+to breach events relative size relative to a “baseline case”, and how
+they will change with two things VE and R0
+
+The goal of myappkg is to get heap maps under specific range of R0
+(virus spead capability) and VE (vaccine efficiency).
+
+## Installation
+
+You can install the development version of myappkg from
+[GitHub](ETC5523-2025/assignment-4-packages-and-shiny-apps-shaocaoyu-01)
+with:
+
+``` r
+# install.packages("pak")
+remotes::install_github("ETC5523-2025/assignment-4-packages-and-shiny-apps-shaocaoyu-01")
+#> Skipping install of 'myappkg' from a github remote, the SHA1 (2464b7f5) has not changed since last install.
+#>   Use `force = TRUE` to force installation
+```
+
+## Usage Examples
+
+The following steps demonstrates how to use this to get a fresh
+heatmap. 1. Open the inst/app/app.R 2. Click on the Run button
+
+## Developing
+
+In addition to providing the heat map, myappkg also provide the contour
+of the $\beta$\_tot, the line chart of the $\beta$\_tot vs VE by R0 and
+the line chart of the $\beta$\_tot vs R0 by VE. Besides, it provides the
+raw data download and preview functions.
+
+## Data citation
+
+Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon,
+J., McCaw, J., & Geard, N. (2022). COVID-19 in low-tolerance border
+quarantine systems: Impact of the Delta variant of SARS-CoV-2. Science
+Advances, 8, eabm3624. <https://doi.org/10.1126/sciadv.abm3624>
+
+## Reference
+
+Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon,
+J., McCaw, J., & Geard, N. (2022). COVID-19 in low-tolerance border
+quarantine systems: Impact of the Delta variant of SARS-CoV-2. Science
+Advances, 8, eabm3624. <https://doi.org/10.1126/sciadv.abm3624>

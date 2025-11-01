@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# myappkg
+# Myappkg
 
 A package about reproducible shiny of figure 3 in "COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2"，(Zachreson et al., 2022). The outcome is a reproducible  multi-layered heat map. Under the same quarantine system, the community infection pressure(in the article  the authors aggregate the infectivity of all leaks in the community into a single indicator, $\beta$_tot) due to breach events relative size relative to a "baseline case", and how they will change with two things VE and R0
 
