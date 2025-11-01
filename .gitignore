@@ -8,3 +8,4 @@ renv/library/
 docs
 /doc/
 /Meta/
+inst/doc

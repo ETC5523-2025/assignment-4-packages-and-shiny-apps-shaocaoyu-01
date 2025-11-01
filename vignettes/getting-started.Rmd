@@ -14,7 +14,15 @@ knitr::opts_chunk$set(
 )
 ```
 
+## Overview
+Myappkg provide the reproducible shiny of figure 3 in "COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2"，(Zachreson et al., 2022). Myappkg also provide the contour of the $\beta$_tot, the line chart of the $\beta$_tot vs VE by R0 and the line chart of the $\beta$_tot vs R0 by VE. Besides, it provides the raw data download and preview functions.
+
+
+## Install & Load
 ```{r setup}
 library(myappkg)
-head(clean_dataset)
 ```
+
+## Included Data
+The data is from the journal "COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2"，(Zachreson et al., 2022). It is about the $\beta$_tot value to the different range of R0 and VE.
+
